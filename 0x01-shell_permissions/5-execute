@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod u+x,g-w
+sudo chmod u+x,g-w hello
