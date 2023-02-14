@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.js" > files.txt && xargs rm < files.txt
+find . -type f -name "*.js" | xargs rm
