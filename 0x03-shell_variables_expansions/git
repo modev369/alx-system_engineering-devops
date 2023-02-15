@@ -1,4 +1,5 @@
 #!/bin/bash
+ls -tp | grep -v / | head -n 1
 git add .
 git commit -m /"this is latest commit/"
 git push
