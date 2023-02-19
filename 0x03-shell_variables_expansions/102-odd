@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n . | paste -d '\n' - - | cut -d : -f 2
+paste -d "\n" - - | grep -n '^' | grep '^[[:digit:]]*[13579]:' | cut -d : -f 2
